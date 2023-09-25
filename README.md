@@ -4,7 +4,7 @@
 
 The AI Order System for Boba Tea House is a project that utilizes the OpenAI API to create an AI agent capable of handling customer orders. The goal is to reduce labor costs and streamline the ordering process for the Boba tea house. The AI agent responds to customer requests, collects order information, and provides concise answers while maintaining a friendly and helpful tone.
 ## Demo
-![image](https://github.com/P76071226/Boba-shop/blob/main/demo/boba.gif = 50%x)
+![image](https://github.com/P76071226/Boba-shop/blob/main/demo/boba.gif)
 ## Installation
 
 To use the AI Order System, follow these installation steps:
