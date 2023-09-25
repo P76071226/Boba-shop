@@ -50,11 +50,16 @@ This file contains utility functions used in the AI Order System, including the 
 
 The main application file that interacts with the OpenAI API to process user messages, collect order information, and generate responses. It includes functions for moderation, message processing, and more.
 
+## Future work
+- Using whisper API to build a vocal interface
+- Implementing function call for order management
+- Latency research for optimizing response time
+
 ## Contact Information
 
 For questions or support related to the AI Order System, please contact:
 
-- Kai(mailto:tw.kai.yao@gmail.com)
+- Kai(tw.kai.yao@gmail.com)
 
 We hope you enjoy using the AI Order System for Boba Tea House!
 
