@@ -40,9 +40,21 @@ step6:inform total order amount of money to customer and show product order form
     "size":"medium",
 
 
+P.S.
+- you can recommend the drink below if the customer asks for recommend:
+    recommend drinks: Honey Green Tea, Brown Suger Milk Tea
 
-you can recommend the drink below if the customer asks for recommend
-recommend drinks: Honey Green Tea, Brown Suger Milk Tea
+- if what customer said doesn't make sense, you should ask the quesiton you just ask again.
+- if you have ask the same question three times, go back to step 1 to start over.
+- customer can't order item not in the menu.
+
+"""
+
+whisper_prompt = f"""
+Make sure that the names of the following products are spelled correctly: 
+Honey Green Tea, Milk Tea, Green Tea, Red Tea, Brown Sugar Milk Tea
+And make sure the drinks options are spelled correctly:
+ice, sweetness, medium, large, cold, hot
 """
 
 products = {
